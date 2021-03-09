@@ -1,2 +1,1 @@
-# goit-markup-hw-003
-Домашнее задание №3
+# goit-markup-hw-3
