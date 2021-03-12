@@ -21,7 +21,6 @@ img {
 }
 
 .body {
-  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -61,6 +60,16 @@ img {
   display: flex;
   text-align: center;
   align-items: center;
+}
+
+.border-bottom {
+  margin-top: 24px;
+  width: 1200px;
+  margin-bottom: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border: 1px solid#ececec;
 }
 
 .container {
@@ -122,12 +131,12 @@ img {
 
 .hero {
   margin: 0 auto;
-  width: 1600px;
 }
 
 .heading {
+  padding-bottom: 200px;
+  margin: 0 auto;
   background-color: #2f303a;
-  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -139,6 +148,7 @@ img {
 }
 
 .heading-title {
+  padding-bottom: 30px;
   padding-top: 200px;
   margin: 0 auto;
   text-align: center;
@@ -255,12 +265,12 @@ img {
 }
 
 .button {
-  max-height: 50px;
-  max-width: 250px;
-  margin-right: 400px;
-  margin-left: 700px;
-  margin-top: 30px;
-  margin-bottom: 210px;
+  margin-right: 500px;
+  min-width: 200px;
+  margin-left: 500px;
+  padding: 10px 32px;
+  display: block;
+  margin: 0 auto;
   background-color: #2196f3;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -273,14 +283,17 @@ img {
 /*OURTEAM*/
 
 .our-team {
-  background-color: #f5f4fa;
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 
 .heading-3 {
-  padding-top: 94px;
   text-align: center;
+  padding-top: 94px;
   margin-top: 94px;
   margin-bottom: 50px;
   font-family: "Roboto", sans-serif;
@@ -291,10 +304,8 @@ img {
   color: #212121;
 }
 
-.team-cards {
-  padding-bottom: 94px;
-  width: 1200px;
-  margin: 0 auto;
+.team-list {
+  display: flex;
 }
 
 .img-team {
@@ -310,15 +321,15 @@ img {
 }
 
 .name-team {
+  margin-right: 30px;
+  margin-left: -30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .name {
-  text-align: center;
   padding-top: 30px;
   padding-left: 60px;
-  padding-right: 59px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -328,10 +339,8 @@ img {
 }
 
 .work {
-  text-align: center;
   padding-top: 10px;
   padding-left: 70px;
-  padding-right: 70px;
   padding-bottom: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -344,7 +353,6 @@ img {
 .frontend {
   padding-top: 10px;
   padding-left: 62px;
-  padding-right: 61px;
   padding-bottom: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -383,7 +391,8 @@ img {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
-  margin: left;
+  margin: 0 auto;
+  padding-bottom: 60px;
 }
 
 .connection-link {
@@ -399,6 +408,7 @@ img {
 }
 
 .div-logo {
+  margin: 0 auto;
   width: 1200px;
   padding-top: 60px;
   padding-bottom: 20px;
@@ -439,7 +449,6 @@ img {
 }
 
 .footer {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 94px;
@@ -467,25 +476,18 @@ img {
   color: #ffffff;
 }
 
-.button-list {
-  width: 1600px;
-}
-
 .button-item {
-  width: 1200px;
+  margin-left: 317px;
   display: flex;
 }
 
-.button-li:not(:last-child) {
-  margin-right: 8px;
-}
 .button-li {
-  margin: 0 auto;
+  margin-right: 8px;
 }
 
 .cards {
-  width: 1600px;
   margin: 0 auto;
+  width: 1200px;
 }
 
 .cards-development {
@@ -512,4 +514,11 @@ img {
   text-align: left;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
 }
